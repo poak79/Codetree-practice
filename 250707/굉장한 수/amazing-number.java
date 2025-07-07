@@ -12,7 +12,7 @@ public class Main {
             System.out.println("true");
         }
         else {
-            System.out.println("fakse");
+            System.out.println("false");
         }
     }
 }
