@@ -9,10 +9,10 @@ public class Main {
         int d = sc.nextInt();
 
         if(a>b && c>d) {
-            System.out.println(1);
+            System.out.println('1');
         }
         else {
-            System.out.println(0);
+            System.out.println('0');
         }
     }
 }
