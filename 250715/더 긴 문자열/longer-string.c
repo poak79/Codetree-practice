@@ -14,7 +14,7 @@ int main() {
         printf("Coding %d", strlen(a));
     }
     else if(strlen(a)<strlen(b)) {
-        printf("Cpoding %d", strlen(b));
+        printf("Coding %d", strlen(b));
     }
     return 0;
 }
