@@ -10,8 +10,11 @@ int main() {
     if(strlen(a)==strlen(b)) {
         printf("same");
     }
-    else {
-        printf("Coding 6");
+    else if(strlen(a)>strlen(b)) {
+        printf("Coding %d", strlen(a));
+    }
+    else if(strlen(a)<strlen(b)) {
+        printf("Cpoding %d", strlen(b));
     }
     return 0;
 }
