@@ -11,10 +11,10 @@ int main() {
         printf("same");
     }
     else if(strlen(a)>strlen(b)) {
-        printf("Coding %d", strlen(a));
+        printf("%s %d", a, strlen(a));
     }
     else if(strlen(a)<strlen(b)) {
-        printf("Coding %d", strlen(b));
+        printf("%s %d", b, strlen(b));
     }
     return 0;
 }
