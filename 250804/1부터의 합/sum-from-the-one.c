@@ -8,12 +8,9 @@ int main() {
     for(int i=1;i<=100;i++) {
         s+=i;
         if(s>=n) {
-            s-=i;
-            printf("%d", s);
+            printf("%d", i);
             break;
         }
-        
-        
     }
     return 0;
 }
