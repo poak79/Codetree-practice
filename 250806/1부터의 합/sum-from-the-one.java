@@ -3,11 +3,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int s;
+        int s=0;
 
-        for(int i=1;i<=n;i++) {
+        for(int i=1;i<=100;i++) {
             s+=i;
-            if(s<=n) {
+            if(s>=n) {
                 System.out.println(i);
                 break;
             }
