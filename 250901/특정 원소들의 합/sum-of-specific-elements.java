@@ -9,10 +9,15 @@ public class Main {
         for(int i=0;i<4;i++) {
             for(int j=0;j<4;j++) {
                 num[i][j] = sc.nextInt();
-                if(j<=i)
-                    sum+=num[i][j];
             }
         }
+
+        for(int i=0;i<4;i++) {
+            for(int j=0;j<=i;j++) {
+                sum+=num[i][j];
+            }
+        }
+        
         System.out.println(sum);
     }
 }
