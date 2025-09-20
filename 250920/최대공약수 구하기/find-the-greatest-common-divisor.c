@@ -2,9 +2,8 @@
 
 int print(int a, int b) {
     int num=0;
-    scanf("%d %d", &a, &b);
 
-    for(int i=1; i<12; i++) {
+    for(int i=1; i<a; i++) {
         if(a%i==0 && b%i==0) {
             num=i;
         }
